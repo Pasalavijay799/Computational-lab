@@ -1,6 +1,8 @@
+#sum of two numbers 
 a1=2
 b1=3
 print(a1+b1)
+#input from user 
 a1=input("enter a number")
 b1=input("enter a number")
 print(a+b)
