@@ -11,6 +11,6 @@ clc;
 close all;
 x=0:0.01:1;
 fileId=fopen('sin_t.txt','w');
-fprint(fileId,'%f'x);
+fprint(fileId,'%f',x);
 fclose(fileId);
 
