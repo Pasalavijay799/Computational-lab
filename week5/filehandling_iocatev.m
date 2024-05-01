@@ -1,9 +1,9 @@
 clc;
 clear all;
 close all;
-FileId=fopen('sin_t.txt','r');
-A=fscanf(FileId,'%f');
-fclose(FileId);
+fileId=fopen('sin_t.txt','r');
+A=fscanf(fileId,'%f');
+fclose(fileId);
 f=10;
 x=sin(2*pi*f*A);
 plot(A,x);
